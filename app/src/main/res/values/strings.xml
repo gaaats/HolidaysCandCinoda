@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ukinemo</string>
+    <string name="app_name">Poska Ponde</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -9,10 +9,11 @@
     <string name="text_about">Create strong passwords with keywords to protect your accounts.</string>
     <string name="music">music</string>
     <string name="vibration">vibration</string>
-    <string name="text_activity_good">Ukraine is a unitary republic under a semi-presidential system and a developing country, ranking 77th on the Human Development Index. Ukraine is the poorest country in Europe by nominal GDP per capita,[17] and has high levels of corruption.[18][19] However, due to its extensive fertile land, pre-war Ukraine was one of the largest grain exporters in the world.[20][21] It is a founding member of the United Nations, as well as a member of the Council of Europe, the World Trade Organization, and the OSCE, and is in the process of joining the European Union and becoming a NATO member.</string>
+    <string name="text_activity_good">Poland has a temperate transitional climate. Its territory extends from the Baltic Sea in the north to the Sudeten and Carpathian Mountains in the south. The country is bordered by Lithuania and Russia to the northeast,[d] Belarus and Ukraine to the east, Slovakia and the Czech Republic to the south, and Germany to the west. Poland also shares maritime boundaries with Denmark and Sweden.</string>
     <string name="about"><u>about</u></string>
-    <string name="name_country">ukraine</string>
-    <string name="about_country">Ukraine greatly benefited from the Soviet emphasis on physical education. These policies left Ukraine with hundreds of stadia, swimming pools, gymnasia and many other athletic facilities.[380] The most popular sport is football. The top professional league is the Vyscha Liha.</string>
+    <string name="name_country">poland</string>
+    <string name="name_country_random_fact">poland, random fact</string>
+    <string name="about_country">Poland, officially the Republic of Poland, is a country in Central Europe. It is divided into 16 administrative provinces called voivodeships, covering an area of 312,696 km2. Poland has a population of over 38 million and is the fifth-most populous member state of the European Union.[ Warsaw is the nations capital and largest metropolis.</string>
 
     <string-array name="diff_levels">
         <item>NATIONAL HOLIDAY</item>

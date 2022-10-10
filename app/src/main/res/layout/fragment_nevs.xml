@@ -67,7 +67,7 @@
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/montserrat_black"
         android:gravity="center"
-        android:text="UKraine"
+        android:text="@string/name_country"
         android:textAllCaps="true"
         android:textColor="@color/add_colour_the_most_dark"
         app:autoSizeTextType="uniform"

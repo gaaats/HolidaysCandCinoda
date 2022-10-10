@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_weight="10"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="@color/main_colour_"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_gravity="start"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="rice simple" />
+
+
+    <TextView
+        android:id="@+id/tv_ingridients"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="rice egg rice rice rice rice" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

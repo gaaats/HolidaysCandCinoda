@@ -15,6 +15,13 @@
         app:layout_constraintGuide_percent="0.35" />
 
     <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_hor_05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,6 +69,7 @@
         android:layout_height="0dp"
         android:src="@drawable/logo"
         app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_50"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
@@ -75,12 +83,12 @@
         android:fontFamily="@font/montserrat_black"
         android:text="holidays"
         app:layout_constraintVertical_chainStyle="spread"
-        android:padding="8dp"
+        android:padding="1dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="19sp"
         app:layout_constraintBottom_toTopOf="@id/btn_nevs"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_60"
+        app:layout_constraintTop_toBottomOf="@id/img_main_logo"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
 
@@ -92,7 +100,7 @@
         android:background="@drawable/custom_cornered_btn"
         android:fontFamily="@font/montserrat_black"
         android:text="news"
-        android:padding="8dp"
+        android:padding="1dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="19sp"
@@ -107,15 +115,48 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_cornered_btn"
         android:fontFamily="@font/montserrat_black"
-        android:text="interesting facts"
-        android:padding="8dp"
+        android:text="interesting fact"
+        android:padding="1dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="19sp"
         app:layout_constraintTop_toBottomOf="@id/btn_nevs"
+        app:layout_constraintBottom_toTopOf="@id/btn_play_game"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_game"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_cornered_btn"
+        android:fontFamily="@font/montserrat_black"
+        android:text="*play little game"
+        android:padding="1dp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_interesting_facts"
+        app:layout_constraintBottom_toTopOf="@id/btn_cuisine"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cuisine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_cornered_btn"
+        android:fontFamily="@font/montserrat_black"
+        android:text="CUISine"
+        android:padding="1dp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_play_game"
         app:layout_constraintBottom_toTopOf="@id/guideline_hor_95"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
 
     <ImageView
         android:id="@+id/btn_settings"
@@ -126,6 +167,17 @@
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+    <ImageView
+        android:id="@+id/btn_heart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="1dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
 
 
