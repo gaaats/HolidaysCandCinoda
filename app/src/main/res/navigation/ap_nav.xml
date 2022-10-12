@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.holpackapooolka.holidayartponddos.StartFragment"
+        android:name="com.holpackcand.holidayartcinoda.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.holpackapooolka.holidayartponddos.ResultFragment"
+        android:name="com.holpackcand.holidayartcinoda.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result">
         <action
@@ -48,12 +48,12 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.holpackapooolka.holidayartponddos.SettingsFragment"
+        android:name="com.holpackcand.holidayartcinoda.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.holpackapooolka.holidayartponddos.DetailFragment"
+        android:name="com.holpackcand.holidayartcinoda.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
         <action
@@ -66,11 +66,11 @@
             app:popExitAnim="@anim/to_left" />
         <argument
             android:name="holiday"
-            app:argType="com.holpackapooolka.holidayartponddos.entity.HolideyItemUI" />
+            app:argType="com.holpackcand.holidayartcinoda.entity.HolideyItemUI" />
     </fragment>
     <fragment
         android:id="@+id/enterFragment"
-        android:name="com.holpackapooolka.holidayartponddos.EnterFragment"
+        android:name="com.holpackcand.holidayartcinoda.EnterFragment"
         android:label="fragment_enter"
         tools:layout="@layout/fragment_enter">
         <action
@@ -100,17 +100,17 @@
     </fragment>
     <fragment
         android:id="@+id/nevsFragment"
-        android:name="com.holpackapooolka.holidayartponddos.NevsFragment"
+        android:name="com.holpackcand.holidayartcinoda.NevsFragment"
         android:label="fragment_nevs"
         tools:layout="@layout/fragment_nevs" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.holpackapooolka.holidayartponddos.AboutFragment"
+        android:name="com.holpackcand.holidayartcinoda.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/fragmentCuisine"
-        android:name="com.holpackapooolka.holidayartponddos.FragmentCuisine"
+        android:name="com.holpackcand.holidayartcinoda.FragmentCuisine"
         android:label="fragment_cuisine"
         tools:layout="@layout/fragment_cuisine">
         <action
@@ -123,11 +123,11 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentDetailRecipe"
-        android:name="com.holpackapooolka.holidayartponddos.FragmentDetailRecipe"
+        android:name="com.holpackcand.holidayartcinoda.FragmentDetailRecipe"
         android:label="fragment_detail_recipe"
         tools:layout="@layout/fragment_detail_recipe">
         <argument
             android:name="recipe"
-            app:argType="com.holpackapooolka.holidayartponddos.cuisine.RecipesListNetItem" />
+            app:argType="com.holpackcand.holidayartcinoda.cuisine.RecipesListNetItem" />
     </fragment>
 </navigation>

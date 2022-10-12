@@ -119,7 +119,7 @@
         app:layout_constraintBottom_toTopOf="@id/btn_ok"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toBottomOf="@id/pager" />
+        app:layout_constraintTop_toBottomOf="@id/circle_ind" />
 
 
     <com.google.android.material.button.MaterialButton

@@ -176,7 +176,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/load"
+        app:lottie_rawRes="@raw/fortune_wheel"
         tools:visibility="invisible" />
 
     <TextView

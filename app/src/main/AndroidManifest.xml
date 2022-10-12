@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.holpackapooolka.holidayartponddos">
+    package="com.holpackcand.holidayartcinoda">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.holpackapooolka.holidayartponddos.utils.AppClass"
+        android:name="com.holpackcand.holidayartcinoda.utils.AppClass"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -17,7 +17,7 @@
         android:theme="@style/Theme.HolidaysMexico"
         tools:targetApi="31">
         <activity
-            android:name="com.holpackapooolka.holidayartponddos.GameActivity"
+            android:name="com.holpackcand.holidayartcinoda.GameActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <meta-data
@@ -25,7 +25,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.holpackapooolka.holidayartponddos.SplashScreenActivity"
+            android:name="com.holpackcand.holidayartcinoda.SplashScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -35,7 +35,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.holpackapooolka.holidayartponddos.MainActivity"
+            android:name="com.holpackcand.holidayartcinoda.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
 

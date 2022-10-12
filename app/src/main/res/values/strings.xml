@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Poska Ponde</string>
+    <string name="app_name">Cand Cinoda</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -9,11 +9,11 @@
     <string name="text_about">Create strong passwords with keywords to protect your accounts.</string>
     <string name="music">music</string>
     <string name="vibration">vibration</string>
-    <string name="text_activity_good">Poland has a temperate transitional climate. Its territory extends from the Baltic Sea in the north to the Sudeten and Carpathian Mountains in the south. The country is bordered by Lithuania and Russia to the northeast,[d] Belarus and Ukraine to the east, Slovakia and the Czech Republic to the south, and Germany to the west. Poland also shares maritime boundaries with Denmark and Sweden.</string>
+    <string name="text_activity_good">Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering over 9.98 million square kilometres (3.85 million square miles), making it the worlds second-largest country by total area. Canadas capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.</string>
     <string name="about"><u>about</u></string>
-    <string name="name_country">poland</string>
-    <string name="name_country_random_fact">poland, random fact</string>
-    <string name="about_country">Poland, officially the Republic of Poland, is a country in Central Europe. It is divided into 16 administrative provinces called voivodeships, covering an area of 312,696 km2. Poland has a population of over 38 million and is the fifth-most populous member state of the European Union.[ Warsaw is the nations capital and largest metropolis.</string>
+    <string name="name_country">canada</string>
+    <string name="name_country_random_fact">canada, random fact</string>
+    <string name="about_country">Canada is a parliamentary democracy and a constitutional monarchy in the Westminster tradition. The countrys head of government is the prime minister—who holds office by virtue of their ability to command the confidence of the elected House of Commons—and is appointed by the governor general, representing the monarch, who serves as head of state.</string>
 
     <string-array name="diff_levels">
         <item>NATIONAL HOLIDAY</item>

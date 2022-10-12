@@ -22,18 +22,14 @@
         tools:text="rice simple" />
 
 
-    <TextView
-        android:id="@+id/tv_ingridients"
+    <ImageView
+        android:id="@+id/img_one_food"
         android:layout_weight="4"
-        android:layout_width="0dp"
-        android:maxLines="2"
-        android:ellipsize="end"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:gravity="start"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        tools:text="rice egg rice rice rice rice" />
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/food"
+        android:gravity="center" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -57,6 +57,13 @@
         app:layout_constraintGuide_percent="0.05" />
 
     <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_vert_95"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,12 +92,13 @@
         android:text="holidays"
         app:layout_constraintVertical_chainStyle="spread"
         android:padding="1dp"
+        android:layout_margin="5dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="19sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@id/btn_nevs"
         app:layout_constraintTop_toBottomOf="@id/img_main_logo"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_50"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
 
     <com.google.android.material.button.MaterialButton
@@ -102,12 +110,13 @@
         android:fontFamily="@font/montserrat_black"
         android:text="news"
         android:padding="1dp"
+        android:layout_margin="5dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="19sp"
-        app:layout_constraintBottom_toTopOf="@id/btn_interesting_facts"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_cuisine"
         app:layout_constraintTop_toBottomOf="@id/btn_holidays"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_50"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
 
     <com.google.android.material.button.MaterialButton
@@ -116,15 +125,16 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_cornered_btn"
         android:fontFamily="@font/montserrat_black"
-        android:text="interesting fact"
+        android:text="all facts"
         android:padding="1dp"
+        android:layout_margin="5dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="19sp"
-        app:layout_constraintTop_toBottomOf="@id/btn_nevs"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/img_main_logo"
         app:layout_constraintBottom_toTopOf="@id/btn_play_game"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_50" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_play_game"
@@ -132,15 +142,16 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_cornered_btn"
         android:fontFamily="@font/montserrat_black"
-        android:text="*play little game"
+        android:text="play game"
         android:padding="1dp"
+        android:layout_margin="5dp"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="19sp"
+        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/btn_interesting_facts"
         app:layout_constraintBottom_toTopOf="@id/btn_cuisine"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_50" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_cuisine"
@@ -164,7 +175,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:elevation="1dp"
-        android:src="@drawable/ic_baseline_settings_24"
+        android:src="@drawable/ic_baseline_settings_applications_24"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -175,11 +186,23 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:elevation="1dp"
-        android:src="@drawable/ic_baseline_favorite_24"
+        android:src="@drawable/ic_baseline_tag_faces_24"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_anim_tap"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        app:layout_constraintEnd_toEndOf="@id/btn_cuisine"
+        app:layout_constraintTop_toTopOf="@id/btn_cuisine"
+        android:layout_marginTop="28dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/tap"
+        tools:visibility="visible" />
 
 
 
