@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     tools:context=".FragmentCuisine">
 
 
@@ -74,7 +74,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/load"
+        app:lottie_rawRes="@raw/cuisine"
         tools:visibility="invisible" />
 
     <TextView
@@ -106,7 +106,7 @@
         android:id="@+id/img_main"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/cuisine"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_35"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -184,7 +184,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/main_colour_"
+        android:background="@drawable/bkg_custom_grad_lin"
         app:layout_constraintBottom_toTopOf="@id/btn_copy"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
@@ -195,7 +195,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:background="@color/main_colour_"
+            android:background="@drawable/bkg_custom_grad_lin"
             android:gravity="center"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toTopOf="@id/btn_copy"

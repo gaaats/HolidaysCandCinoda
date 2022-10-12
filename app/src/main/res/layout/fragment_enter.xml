@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".EnterFragment">
 
@@ -67,6 +67,7 @@
         android:id="@+id/img_main_logo"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:padding="39dp"
         android:src="@drawable/logo"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_50"

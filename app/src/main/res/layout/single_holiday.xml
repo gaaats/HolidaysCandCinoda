@@ -6,7 +6,7 @@
     android:layout_weight="11"
     android:orientation="horizontal"
     android:layout_height="wrap_content"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     android:padding="10dp">
 
     <TextView

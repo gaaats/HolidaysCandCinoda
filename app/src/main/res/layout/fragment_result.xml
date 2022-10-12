@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     tools:context=".ResultFragment">
 
 
@@ -99,7 +99,7 @@
         android:id="@+id/img_main"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/flag"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_35"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -110,7 +110,7 @@
         android:id="@+id/card_v"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/main_colour_"
+        android:background="@drawable/bkg_custom_grad_lin"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@id/btn_copy"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -123,7 +123,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
-            android:background="@color/main_colour_"
+            android:background="@drawable/bkg_custom_grad_lin"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toTopOf="@id/btn_copy"
             app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
